@@ -1,0 +1,32 @@
+
+public class Student {
+ private String email;
+ private int password;
+ private int CoursesNum;
+ 
+public Student(String email, int password, int coursesNum) {
+	this.email = email;
+	this.password = password;
+	CoursesNum = coursesNum;
+}
+public String getEmail() {
+	return email;
+}
+public void setEmail(String email) {
+	this.email = email;
+}
+public int getPassword() {
+	return password;
+}
+public void setPassword(int password) {
+	this.password = password;
+}
+public int getCoursesNum() {
+	return CoursesNum;
+}
+public void setCoursesNum(int coursesNum) {
+	CoursesNum = coursesNum;
+}
+  
+ 
+}

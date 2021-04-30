@@ -1,0 +1,35 @@
+
+public class Instructer {
+	 private String InstEmail;
+	 private int Instpassword;
+     private int InstCoursesNum;
+     
+		 
+	 
+	 public Instructer(String instEmail, int instpassword, int instCoursesNum) {
+	
+		InstEmail = instEmail;
+		Instpassword = instpassword;
+		InstCoursesNum = instCoursesNum;
+	}
+	public String getInstEmail() {
+		return InstEmail;
+	}
+	public void setInstEmail(String instEmail) {
+		InstEmail = instEmail;
+	}
+	public int getInstpassword() {
+		return Instpassword;
+	}
+	public void setInstpassword(int instpassword) {
+		Instpassword = instpassword;
+	}
+	public int getInstCoursesNum() {
+		return InstCoursesNum;
+	}
+	public void setInstCoursesNum(int instCoursesNum) {
+		InstCoursesNum = instCoursesNum;
+	}
+
+	 
+}

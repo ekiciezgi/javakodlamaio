@@ -1,0 +1,17 @@
+public class Student extends User{
+
+
+	private String StudCourses;
+	
+	
+
+	public Student(String name, String email, int password,String StudCourses) {
+		super(name, email, password);
+		this.StudCourses=StudCourses;
+		
+	}
+	public String getStudCourses() {
+		return StudCourses;
+	}
+
+}

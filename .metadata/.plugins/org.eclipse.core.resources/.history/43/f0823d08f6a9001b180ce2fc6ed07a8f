@@ -1,0 +1,8 @@
+public class InstructerManager {
+	
+ public void addInstructer(Instructer instructer,String courses) {
+
+ }
+ 
+
+}

@@ -1,0 +1,12 @@
+import Concrete.User;
+
+public class UserManager {
+	
+	public void addUser(User user,String name,String email) {
+		user.setEmail(email);
+		user.setName(name);
+		System.out.println("addUser çalýþtý.");
+	}
+	
+  
+}

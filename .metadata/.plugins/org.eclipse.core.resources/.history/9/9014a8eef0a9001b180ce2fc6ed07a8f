@@ -1,0 +1,6 @@
+
+public class InstructerManager {
+ void addPerson(Instructer instructer,int  course) {
+ instructer.setCoursesNum(instructer.getCoursesNum()+ course);
+ }
+}
